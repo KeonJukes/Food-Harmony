@@ -1,11 +1,25 @@
 
-  # Personal Food Profile App
+  # Food Harmony
 
-  This is a code bundle for Personal Food Profile App. The original project is available at https://www.figma.com/design/KluA1YwfObA7jcc3cjvrdr/Personal-Food-Profile-App.
+  This is a code bundle for the Food Harmony App. The original project is available at https://www.figma.com/design/KluA1YwfObA7jcc3cjvrdr/Personal-Food-Profile-App.
 
-  ## Running the code
+  🍽️ Food Harmony: Diet-Configured Local Food FinderFind the foods you like and avoid those you don't, no matter where you are.Food Harmony is a vibe code hackathon project designed to solve the common challenge of finding suitable dining options that respect complex or restrictive dietary needs. By allowing users to create a detailed Personal Food Profile, the application intelligently filters and displays nearby restaurants, cafes, and bakeries whose menu items (foods, drinks, and desserts) align with their exact requirements.✨ FeaturesFood Harmony focuses on personalization and location-based filtering to ensure a seamless dining experience:Customizable Food Profile: Users can configure multiple exclusion lists, including:Specific Allergens (e.g., peanuts, shellfish).Defined Diets (e.g., Keto, Vegan, Gluten-Free).Individual Ingredient Exclusions (e.g., no refined sugar, no specific spice).Geolocation Search: Automatically detects the user's current location to provide highly relevant nearby results.Intelligent Filtering & Ranking: Prioritizes food establishments based on the confidence that they can accommodate the user's detailed profile.Item-Level Compliance: Displays specific menu items confirmed (or algorithmically matched) to be compliant with the user's Food Profile.Intuitive Interface: A clean, responsive UI built with React for a fast and friendly user experience on both mobile and desktop.🛠️ Technology StackThis project is primarily a frontend application focused on the user experience and configuration logic.CategoryTechnologyPurposeFrameworkReact with TypeScriptBuilding component-based, type-safe user interfaces.Build ToolViteFast development server and optimized bundle compilation.StylingCSS (and assumed utility-first frameworks)Modern, responsive, and aesthetic styling.APIs (Conceptual)Google Maps Places APIFor location search and fetching local business data.APIs (Conceptual)Menu/Food Data APIsFor matching user preferences to menu item ingredients.📂 Project Structure FocusThe repository is structured as a standard modern React application:food-harmony/
+  
+├── src/                  # All core application components and logic (React/TSX)
+│   ├── components/       # Reusable UI elements (e.g., buttons, cards)
+│   ├── pages/            # Main views (e.g., Profile Setup, Map View, Results)
+│   └── api/              # Functions for communicating with external food/location APIs
+├── index.html            # Entry point of the application
+├── package.json          # Dependency and script definitions
+└── vite.config.ts        # Vite configuration
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
+🚀 Getting StartedFollow these steps to set up and run the Food Harmony application on your local machine.PrerequisitesYou need the following installed:Node.js (LTS version)npm or yarnA browser capable of running modern web applications.Installation and RunningClone the repository:git clone [https://github.com/KeonJukes/Food-Harmony](https://github.com/KeonJukes/Food-Harmony)
+cd Food-Harmony
+Install dependencies:npm install
+# or
+yarn install
+Start the development server:npm run dev
+# or
+yarn dev
+The application should now be running and accessible at the local URL displayed in your console (usually http://localhost:5173).👥 Team & ContributionThis project was built as a proof-of-concept for the Vibe Code Hackathon.Feel free to open issues or submit pull requests if you want to contribute to expanding the profile configuration or refining the filtering logic!
   
