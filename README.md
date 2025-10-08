@@ -3,7 +3,7 @@
 
 > **Find the foods you like and avoid those you don't, no matter where you are.**
 
-[Food Harmony](Food-Harmony-trailer.gif)
+![Food Harmony](Food-Harmony-trailer.gif)
 
 **Food Harmony** is a vibe code hackathon project designed to solve the common challenge of finding suitable dining options that respect complex or restrictive dietary needs. By allowing users to create a detailed **Personal Food Profile**, the application intelligently filters and displays nearby restaurants, cafes, and bakeries whose menu items (foods, drinks, and desserts) align with their exact requirements.
 
